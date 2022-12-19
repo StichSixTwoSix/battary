@@ -1,0 +1,65 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header-logo {
+    height: 90px;
+    padding: 0 30px;
+    margin-left: 50px;
+}
+
+.menu {
+    display: flex;
+    margin-top: auto;
+    border-bottom: solid #200f43 2px;
+}
+
+.menu-link {
+    margin: 5px 30px;
+    color: #200f43;
+}
+
+.bat {
+    width: 100%;
+}
+
+.bat-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.bat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bat-card {
+    flex: 0 1 250px;
+    margin: 10px;
+}
+
+.bat-img {
+    width: 100%;
+}
